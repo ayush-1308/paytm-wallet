@@ -1,9 +1,5 @@
 const mongoose = require('mongoose');
-
-// mongoose.connect('mongodb+srv://raghavgpt001:Pneumono%40001424@cluster0.bvgjvfu.mongodb.net/test?retryWrites=true&w=majority');
-mongoose.connect('mongodb+srv://raghavgpt001:Pneumono%40001424@cluster0.bvgjvfu.mongodb.net/test');
-// mongoose.connect("mongodb://atlas-sql-657d45fc3f47411eba071be7-d73po.a.query.mongodb.net/paytm?ssl=true&authSource=admin");
-// mongoose.connect("mongodb://localhost:27017/paytm");
+mongoose.connect('mongodb://localhost:27017/paytm');
 
 const userSchema = new mongoose.Schema({
     username: {
